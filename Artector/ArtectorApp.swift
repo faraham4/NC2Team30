@@ -11,7 +11,7 @@ import SwiftUI
 struct ArtectorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoardingView()
         }
     }
 }
