@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155DC402B381DA700A3392E /* MyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC3F2B381DA600A3392E /* MyImageClassifier.mlmodel */; };
+		0155DC422B381E5600A3392E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC412B381E5600A3392E /* ContentView.swift */; };
+		0155DC442B381EC500A3392E /* painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC432B381EC500A3392E /* painting.swift */; };
+		0155DC462B385CBB00A3392E /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC452B385CBB00A3392E /* ResultPage.swift */; };
 		FD9AEDA12B317ED70095CF12 /* ArtectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AEDA02B317ED70095CF12 /* ArtectorApp.swift */; };
 		FD9AEDA52B317ED80095CF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9AEDA42B317ED80095CF12 /* Assets.xcassets */; };
 		FD9AEDA82B317ED80095CF12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9AEDA72B317ED80095CF12 /* Preview Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155DC3F2B381DA600A3392E /* MyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyImageClassifier.mlmodel; sourceTree = "<group>"; };
+		0155DC412B381E5600A3392E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		0155DC432B381EC500A3392E /* painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = painting.swift; sourceTree = "<group>"; };
+		0155DC452B385CBB00A3392E /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
 		FD9AED9D2B317ED70095CF12 /* Artector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9AEDA02B317ED70095CF12 /* ArtectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtectorApp.swift; sourceTree = "<group>"; };
 		FD9AEDA42B317ED80095CF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,12 +62,16 @@
 		FD9AED9F2B317ED70095CF12 /* Artector */ = {
 			isa = PBXGroup;
 			children = (
+				0155DC3F2B381DA600A3392E /* MyImageClassifier.mlmodel */,
 				FD9AEDB02B318E590095CF12 /* Info.plist */,
 				FD9AEDA02B317ED70095CF12 /* ArtectorApp.swift */,
+				0155DC432B381EC500A3392E /* painting.swift */,
 				FD9AEDA42B317ED80095CF12 /* Assets.xcassets */,
 				FD9AEDA62B317ED80095CF12 /* Preview Content */,
 				FD9AEDB12B318FCC0095CF12 /* BoardingPage.swift */,
 				FD9AEDCF2B32CAE80095CF12 /* CameraPage.swift */,
+				0155DC412B381E5600A3392E /* ContentView.swift */,
+				0155DC452B385CBB00A3392E /* ResultPage.swift */,
 			);
 			path = Artector;
 			sourceTree = "<group>";
@@ -143,8 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9AEDB22B318FCC0095CF12 /* BoardingPage.swift in Sources */,
+				0155DC462B385CBB00A3392E /* ResultPage.swift in Sources */,
+				0155DC422B381E5600A3392E /* ContentView.swift in Sources */,
 				FD9AEDD02B32CAE80095CF12 /* CameraPage.swift in Sources */,
 				FD9AEDA12B317ED70095CF12 /* ArtectorApp.swift in Sources */,
+				0155DC402B381DA700A3392E /* MyImageClassifier.mlmodel in Sources */,
+				0155DC442B381EC500A3392E /* painting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Artector/Preview Content\"";
-				DEVELOPMENT_TEAM = S6P962D2PT;
+				DEVELOPMENT_TEAM = 2WWZXFVRU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Artector/Info.plist;
@@ -311,7 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Artector/Preview Content\"";
-				DEVELOPMENT_TEAM = S6P962D2PT;
+				DEVELOPMENT_TEAM = 2WWZXFVRU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Artector/Info.plist;
