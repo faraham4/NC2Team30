@@ -11,18 +11,23 @@ struct BoardingView: View {
                         .fontWeight(.bold)
                         .frame(width: 180)
                         .foregroundStyle(.black) .padding([.top, .leading])
+                        .accessibilityLabel("Artector App")
                     
                     Text("Find out the story behind a famous painting with a tap!")
                         .font(.headline)
                         .foregroundColor(.black)
                         .padding([.leading, .bottom, .trailing])
                         .frame(width: 350)
+                        .accessibilityLabel("Discover stories behind famous paintings")
+
                 }.padding(.vertical)
                     
                 ZStack{
                     Image("borderGroup").position(x: 195, y:190)
                     
                     Image("mona lisa").resizable().frame(width: 210, height: 250).mask(Rectangle().frame(width: 220, height: 220)).position(x:195, y: 190)
+                        .accessibilityLabel("Mona Lisa Painting Image")
+                    
                 }.padding(.top)
                 
                 
@@ -41,6 +46,7 @@ struct BoardingView: View {
                     }
                 )
                 .padding()
+                .accessibilityLabel("Get Started")
             }
             .navigationBarHidden(true)
         }
