@@ -24,6 +24,7 @@ struct CameraPage: View {
             }
             .sheet(isPresented: $isShowingCamera) {
                 CameraView(capturedImage: $capturedImage)
+                    .accessibilityLabel("Camera View")
             }
             .onAppear {
                 isShowingCamera = true

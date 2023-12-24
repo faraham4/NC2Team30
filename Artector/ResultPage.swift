@@ -22,8 +22,12 @@ struct ResultPage: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .accessibilityLabel("Displayed Image")
+                    .accessibility(hint: Text("Displayed image for painting result"))
             } else {
                 Text("No Image Available")
+                    .accessibilityLabel("No Image Available")
+                    .accessibility(hint: Text("No image is available for the painting result"))
             }
             
             if let painting = painting {
@@ -32,7 +36,8 @@ struct ResultPage: View {
                     showingCredits.toggle()
                 }
                 .padding(.top, 120.0)
-                //.offset(x:0, y:300)
+                .accessibilityLabel("More Information Button")
+                .accessibility(hint: Text("Tap to view more information about the painting"))
                 
                 
                 
@@ -46,6 +51,8 @@ struct ResultPage: View {
                     .padding(.trailing,290)
                     //.padding(.bottom,50.0)
                     .padding(.top,50)
+                    .accessibilityLabel("Back Button")
+                    .accessibility(hint: Text("Go back to the previous screen"))
                     
                     
                     
@@ -59,14 +66,24 @@ struct ResultPage: View {
                     //.padding(.bottom,50.0)
                     // .lineSpacing(50)
                     .padding(.top,-25)
+                    .accessibilityLabel("Sound Button")
+                    .accessibility(hint: Text("Access additional sound options"))
                     
                     ScrollView {
                         Text("Name: \(painting.name)")
-                        Text("Artist: \(painting.artist)")
-                        Text("artistStory: \(painting.artistStory)")
-                        Text("paintingStory: \(painting.paintingStory)")
-                        Text("paintingDescription: \(painting.paintingDescription)")
+                            .accessibilityLabel("Painting Name")
                         
+                        Text("Artist: \(painting.artist)")
+                            .accessibilityLabel("Artist Name")
+                        
+                        Text("Artist Story: \(painting.artistStory)")
+                            .accessibilityLabel("Artist Story")
+                        
+                        Text("Painting Story: \(painting.paintingStory)")
+                            .accessibilityLabel("Painting Story")
+                        
+                        Text("Painting Description: \(painting.paintingDescription)")
+                            .accessibilityLabel("Painting Description")
                     }
                     
                     .presentationDetents([ .large])

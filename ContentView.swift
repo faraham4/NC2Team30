@@ -38,6 +38,9 @@ struct ContentView: View {
                 Image(uiImage: capturedImage)
                     .resizable()
                     .frame(width: 299, height: 299)
+                    .accessibilityLabel("Captured Image")
+                    .accessibility(hint: Text("Image for classification"))
+
 
                 Button("recognize") {
                     classifyImage(capturedImage: capturedImage)
@@ -45,6 +48,8 @@ struct ContentView: View {
                 .padding()
                 .foregroundColor(Color.white)
                 .background(Color.darkGray)
+                .accessibilityLabel("Classify Image")
+                .accessibility(hint: Text("Tap to start image recognition"))
 
                 NavigationLink(destination: ResultPage(painting: selectedPainting, image: predictedImage)) {
                     Text("Show Result")
@@ -53,10 +58,14 @@ struct ContentView: View {
                         .background(Color.black)
                 }
                 .padding()
+                .accessibilityLabel("Show Result Page")
+                .accessibility(hint: Text("Navigate to the result page"))
 
                 Text(classificationLabel)
                     .padding()
                     .font(.body)
+                    .accessibilityLabel("Classification Result")
+                    .accessibility(hint: Text("Result of the image classification"))
             }
            // .navigationTitle("Image Classification")
         }
