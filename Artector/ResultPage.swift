@@ -38,8 +38,7 @@ struct ResultPage: View {
             
                 VStack(alignment: .leading){
                     if let painting = painting {
-                       // VStack {
-                            
+
                                 VStack(alignment: .leading){
                                     Text("Name:")
                                         .bold()
@@ -69,13 +68,15 @@ struct ResultPage: View {
                                 
                                 
                                 
-                          //  }
-                        }
-                }
+                          
+                        }//if
+                    
+                }//vstack
 
-            }
+            }//scroll
                 
-        }
+        }//vstack
+
     }
     
     
