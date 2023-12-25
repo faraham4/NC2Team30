@@ -1,0 +1,553 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    " More info " : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات أكثر"
+          }
+        }
+      }
+    },
+    "%@" : {
+
+    },
+    "Artector" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artector"
+          }
+        }
+      }
+    },
+    "Artist:" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفنان"
+          }
+        }
+      }
+    },
+    "Artist: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفنان:"
+          }
+        }
+      }
+    },
+    "artistStory:" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة الفنان:"
+          }
+        }
+      }
+    },
+    "artistStory: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة الفنان:"
+          }
+        }
+      }
+    },
+    "Eugène Delacroix" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيوجين ديلاكروا"
+          }
+        }
+      }
+    },
+    "Eugène Delacroix " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيوجين ديلاكروا"
+          }
+        }
+      }
+    },
+    "Eugène Delacroix was a French Romantic artist whose works had a profound impact on the 19th-century art scene. Delacroix's interest in art was evident from a young age. He received his early artistic training under the painter Pierre-Narcisse Guérin.In 1815, he entered the École des Beaux-Arts in Paris, where he studied with other influential artists of the time.Eugène Delacroix passed away on August 13, 1863, in Paris, at the age of 65. His death marked the end of an era in French painting." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفنان الرومانسي الفرنسي الكبير إيوجين ديلاكروا كانت لأعماله تأثير عميق على مشهد الفن في القرن التاسع عشر. كان اهتمام ديلاكروا بالفن واضحًا منذ صغره، حيث حصل على تدريبه الفني الأول تحت إشراف الرسام بيير-نارسيس جيران.\n\nفي عام 1815، انضم إلى مدرسة الفنون الجميلة في باريس، حيث درس مع فنانين مؤثرين آخرين في ذلك الوقت.\n\n رحيل إيوجين ديلاكروا جاء في 1863 في باريس، عن عمر يناهز 65 عامًا. كانت وفاته  نهاية لحقبة في التاريخ الفني الفرنسي."
+          }
+        }
+      }
+    },
+    "Find out the story behind a famous painting with a tap!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إكتشف القصة خلف أشهر اللوحات بنقره زر!"
+          }
+        }
+      }
+    },
+    "findBug" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغيير اللغة"
+          }
+        }
+      }
+    },
+    "Get Started" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إبدأ"
+          }
+        }
+      }
+    },
+    "go" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "go"
+          }
+        }
+      }
+    },
+    "Leonardo da Vinci" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليوناردو دا فينشي"
+          }
+        }
+      }
+    },
+    "Leonardo da Vinci was a polymath of the Italian Renaissance, excelling in various fields such as painting, sculpture, anatomy, engineering, mathematics, and architecture. His life story is rich and multifaceted,eonardo was born in Vinci, Italy, as the illegitimate son of Ser Piero da Vinci, a notary, and Caterina, a peasant woman. He spent his early years in Vinci and later moved to Florence.Leonardo da Vinci passed away on May 2, 1519, at the age of 67, at Clos Lucé. The exact cause of his death is uncertain, but it is believed to be related to a stroke." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\nليوناردو دا فينشي كان رجل متعدد المواهب من عصر النهضة الإيطالية، حيث تألق في مجالات متعددة مثل الرسم، والنحت، وعلم التشريح، والهندسة، والرياضيات، والهندسة المعمارية. قصة حياته غنية ومتعددة الجوانب، إذ وُلد ليوناردو في فينشي بإيطاليا، كابن غير شرعي لسير بييرو دا فينشي، الكاتب العدل، وكاترينا، امرأة ريفية. قضى سنواته الأولى في فينشي ثم انتقل لاحقًا إلى فلورنسا.\n\nرحل ليوناردو دا فينشي عن عالمنا في 2 مايو 1519م، عن عمر يناهز الـ67 عامًا في كلوس لوسيه. السبب الدقيق لوفاته غير معروف، ولكن يُعتقد أنها كانت ناتجة عن سكتة دماغية."
+          }
+        }
+      }
+    },
+    "Mona Lisa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موناليزا"
+          }
+        }
+      }
+    },
+    "Name:" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إسم اللوحة"
+          }
+        }
+      }
+    },
+    "Name: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم اللوحة:"
+          }
+        }
+      }
+    },
+    "No Image Available" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد صورة"
+          }
+        }
+      }
+    },
+    "NO Value!!!!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد "
+          }
+        }
+      }
+    },
+    "painting description : The painting depicts a woman, widely believed to be Lisa Gherardini, the wife of Florentine merchant Francesco del Giocondo,The subject is shown sitting against a distant landscape with a winding river and a bridge.She is positioned in a three-quarter view, with her body turned slightly and her gaze fixed on the viewer,One of the most captivating aspects of the painting is the subject's enigmatic smile, which has been a subject of much discussion and interpretation,The woman is dressed in a modest, dark-colored gown, and she wears a veil or headscarf.Her clothing is characteristic of the fashion of the time, reflecting the early 16th century.The background of the painting features a landscape with a winding river, distant mountains, and a bridge.The landscape creates a sense of depth and adds to the overall atmosphere of the painting." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللوحة تصور امرأة، يُعتقد على نطاق واسع أنها ليزا غيرارديني، زوجة التاجر الفلورنسي فرانشيسكو ديل جيوكوندو. تظهر المرأة جالسة أمام منظر بعيد يظهر نهرًا متعرجًا وجسرًا.\nتظهر بزاوية ثلاثية ربعية، حيث يكون جسمها مستديرًا قليلاً وتكون نظرتها موجهة نحو المشاهد. واحدة من أكثر جوانب اللوحة إثارة للاهتمام هي ابتسامتها الغامضة، والتي كانت موضوعًا للكثير من النقاش والتفسير.\nترتدي المرأة ثوبًا متواضعًا بألوان داكنة وتضع حجابًا أو شالًا على رأسها. ملابسها تميزها كما كانت الموضة في تلك الفترة في بدايات القرن السادس عشر.\nتظهر خلفية اللوحة منظرًا طبيعيًا يتضمن نهرًا متعرجًا، وجبالًا بعيدة، وجسرًا. يخلق المنظر الطبيعي شعورًا بالعمق ويضيف إلى الجو العام للوحة."
+          }
+        }
+      }
+    },
+    "painting description : The painting features a harem-like setting, portraying an intimate scene within the private quarters of Algerian women.The composition is intricate and dynamic, with several women engaged in various activities. Delacroix carefully arranged the figures to create a harmonious yet vibrant tableau.The central focus is on a reclining woman in the foreground, adorned with sumptuous fabrics and jewelry. Her pose exudes a sense of languor and sensuality.Other women are depicted around her, engaged in activities such as playing musical instruments, reading, and conversing. Each figure is dressed in luxurious garments, contributing to the overall opulence of the scene.Delacroix employed a rich and vibrant color palette, characterized by intense reds, blues, and golds. The colors contribute to the exotic and luxurious atmosphere of the painting.The patterns on the textiles, the tiles on the floor, and the details of the women's clothing showcase Delacroix's meticulous attention to color and design.The interior of the apartment is adorned with intricate decorations, textiles, and objects. Delacroix used these details to enhance the overall richness and exoticism of the scene.The architectural elements, including the archways and windows, add depth and perspective to the composition." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللوحة تصور إعدادًا لنساء ، حيث تظهر مشهدًا حميميًا داخل الردهة الخاصة بالنساء الجزائريات. تكوين اللوحة دقيق وديناميكي، مع عدة نساء مشغولات بأنشطة مختلفة. قام ديلاكروا بترتيب الشخصيات بعناية لخلق لوحة متناغمة وحية في الوقت نفسه. يعد التركيز الرئيسي في اللوحة على امرأة مستلقية في المقدمة، مزينة بأقمشة ومجوهرات فاخرة. تتناغم وضعيتها بشعور بالكسل. تم تصوير نساء آخريات من حولها، مشغولات في أنشطة مثل العزف على الآلات الموسيقية والقراءة والمحادثة. ترتدي كل شخصية ثيابًا فاخرة، مما يسهم في إضفاء طابع الفخامة العامة على المشهد. استخدم ديلاكروا لوحة ألوان غنية وحية، تتميز بالأحمر والأزرق والذهبي. تساهم الألوان في الأجواء الغريبة والفاخرة للوحة. تعكس الأنماط على النسيج، والبلاط على الأرض، وتفاصيل ملابس النساء انتباه ديلاكروا الدقيق للألوان والتصميم. تزين الشقة بديكورات معقدة ونسيج وأشياء. استخدم ديلاكروا هذه التفاصيل لتعزيز الثراء والغرابة العامة للمشهد. تضيف العناصر المعمارية، بما في ذلك القوسين والنوافذ، عمقًا ومنظورًا لتكوين اللوحة."
+          }
+        }
+      }
+    },
+    "painting description : The painting is large in scale, measuring about 6.77 meters by 9.94 meters.The composition is grand and opulent, reflecting the festive nature of the wedding celebration.The scene is filled with a multitude of figures engaged in dynamic and theatrical activities.The central focus is on Jesus, Mary, and the young couple getting married. They are positioned prominently within the composition.Mary, wearing a blue robe, is gesturing toward Jesus, directing attention to him.Jesus is shown at the moment of performing the miracle, with a servant pouring water into a large container.Veronese employed a rich and vibrant color palette, with a harmonious interplay of colors.The clothing of the figures is adorned with luxurious fabrics, and the overall ambiance is one of opulence and celebration. The painting is rich in details, including intricate patterns on the clothing, elaborate architectural elements, and various objects that contribute to the sense of festivity. The facial expressions of the figures convey a range of emotions, from joyous celebration to curiosity." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعد اللوحة كبيرة في حجمها، حيث تبلغ حوالي 6.77 متر في 9.94 متر. تكوين اللوحة كبير وفخم، يعكس الطابع الاحتفالي لحفل الزفاف. المشهد في اللوحة مليء بالعديد من الشخصيات المشاركة في أنشطة ديناميكية ومسرحية. التركيز الأساسي في اللوحة على يسوع، ومريم، والزوجين الشابين اللذين يتزوجان. يتم وضعهم بشكل بارز داخل تكوين اللوحة.\nمريم، التي ترتدي ثوبًا أزرق، تشير نحو يسوع، موجهة انتباه الجميع إليه.\nيُظهر يسوع في لحظة أداء المعجزة، حيث يصب خادم ماءً في وعاء كبير.\nاستخدم فيرونيزي مجموعة من الألوان الغنية والحية، مع تفاعل متناغم للألوان.\nثياب الشخصيات مزينة بأقمشة فخمة، والأجواء العامة تعكس الثراء والاحتفالية.\nاللوحة غنية بالتفاصيل، بما في ذلك الأنماط المعقدة على الملابس والعناصر المعمارية المتقنة والأشياء المختلفة التي تساهم في الشعور بالاحتفال.\nتعبر تعابير الوجوه للشخصيات عن مجموعة من المشاعر، من الاحتفال الفرحان إلى الفضول."
+          }
+        }
+      }
+    },
+    "painting description :The color palette is dominated by earthy tones, with a focus on browns, grays, and muted colors, creating a somber and desolate atmosphere.The use of muted colors contributes to the realism of the scene, emphasizing the harshness of the survivors' plight.Géricault paid careful attention to capturing the psychological and emotional states of the figures. Faces show a range of emotions, including anguish, desperation, and resignation.The expressions on the faces of the figures contribute to the overall emotional impact of the painting, eliciting empathy from the viewer." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يهيمن على اللوحة مجموعة الألوان  من الدرجات الأرضية، مع التركيز على اللون البني والرمادي والألوان المُخملية، مما يخلق جوًا مكتئبًا ومائلاً نحو الخراب.\n\nاستخدام الألوان المُخملية يُساهم في واقعية المشهد، مُؤكدًا قسوة محنة الناجين.\n\nأولى جيريكو اهتمامًا فائقًا بالتقاط الحالات النفسية والعاطفية للشخصيات. الوجوه تظهر مجموعة من المشاعر، بما في ذلك الحزن واليأس والاستسلام.\n\nتعبيرات الوجوه للشخصيات تُسهم في الأثر العاطفي الشامل للوحة، مما يستحضر التعاطف من المشاهد."
+          }
+        }
+      }
+    },
+    "paintingDescription:" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف اللوحة:"
+          }
+        }
+      }
+    },
+    "paintingDescription: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف اللوحة:"
+          }
+        }
+      }
+    },
+    "paintingStory:" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة اللوحه:"
+          }
+        }
+      }
+    },
+    "paintingStory: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة اللوحه:"
+          }
+        }
+      }
+    },
+    "Paolo Veronese" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باولو فيرونيزي"
+          }
+        }
+      }
+    },
+    "Paolo Veronese, born Paolo Caliari, was an Italian Renaissance painter renowned for his grand and opulent compositions, vivid colors, and masterful use of perspective. Paolo began his artistic training under the local artist Antonio Badile. He also studied the works of other Renaissance masters such as Titian and Giorgione.Paolo Veronese passed away on April 19, 1588, in Venice, at the age of 60. He was buried in the church of San Sebastiano." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باولو فيرونيزي، المولود باولو كالياري، كان رسام في عصر النهضة الإيطالية، شهير بتكويناته الكبرى والفاخرة، وألوانه الزاهية، واستخدامه الماهر للمنظور. باولو بدأ تدريبه الفني تحت إشراف الفنان المحلي أنطونيو باديلي. كما درس أيضًا أعمال أساتذة عصر النهضة الآخرين مثل تيتيان وجورجيوني.\n\nتُوفي باولو فيرونيزي في 19 أبريل 1588 في البندقية عن عمر يناهز 60 عامًا. دُفن في كنيسة سان سيباستيانو."
+          }
+        }
+      }
+    },
+    "recognize" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث"
+          }
+        }
+      }
+    },
+    "Show Result" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "االنتيجة"
+          }
+        }
+      }
+    },
+    "Starry Night" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليلة النجوم"
+          }
+        }
+      }
+    },
+    "The artist history : Eugène Delacroix was a French Romantic artist whose works had a profound impact on the 19th-century art scene. Delacroix's interest in art was evident from a young age. He received his early artistic training under the painter Pierre-Narcisse Guérin.In 1815, he entered the École des Beaux-Arts in Paris, where he studied with other influential artists of the time.Eugène Delacroix passed away on August 13, 1863, in Paris, at the age of 65. His death marked the end of an era in French painting." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفنان الرومانسي الفرنسي الكبير إيوجين ديلاكروا كانت لأعماله تأثير عميق على مشهد الفن في القرن التاسع عشر. كان اهتمام ديلاكروا بالفن واضحًا منذ صغره، حيث حصل على تدريبه الفني الأول تحت إشراف الرسام بيير-نارسيس جيران.\n\nفي عام 1815، انضم إلى مدرسة الفنون الجميلة في باريس، حيث درس مع فنانين مؤثرين آخرين في ذلك الوقت.\n\n رحيل إيوجين ديلاكروا جاء في 1863 في باريس، عن عمر يناهز 65 عامًا. كانت وفاته  نهاية لحقبة في التاريخ الفني الفرنسي."
+          }
+        }
+      }
+    },
+    "The artist history : Paolo Veronese, born Paolo Caliari, was an Italian Renaissance painter renowned for his grand and opulent compositions, vivid colors, and masterful use of perspective. Paolo began his artistic training under the local artist Antonio Badile. He also studied the works of other Renaissance masters such as Titian and Giorgione.Paolo Veronese passed away on April 19, 1588, in Venice, at the age of 60. He was buried in the church of San Sebastiano." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باولو فيرونيزي، المولود باولو كالياري، كان رسام في عصر النهضة الإيطالية، شهير بتكويناته الكبرى والفاخرة، وألوانه الزاهية، واستخدامه الماهر للمنظور. باولو بدأ تدريبه الفني تحت إشراف الفنان المحلي أنطونيو باديلي. كما درس أيضًا أعمال أساتذة عصر النهضة الآخرين مثل تيتيان وجورجيوني.\n\nتُوفي باولو فيرونيزي في 19 أبريل 1588 في البندقية عن عمر يناهز 60 عامًا. دُفن في كنيسة سان سيباستيانو."
+          }
+        }
+      }
+    },
+    "The artist history :Théodore Géricault was a French Romantic painter known for his dramatic and emotionally charged works.Théodore Géricault was born on September 26, 1791, in Rouen, France, into a wealthy and socially prominent family.Géricault's personal life was marked by financial difficulties and health issues. He was known for his intense and passionate personality, which sometimes led to conflicts with others." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"طوفان الميدوز\" هي لوحة ضخمة أُنشئت من قبل الفنان الرومانسي الفرنسي ثيودور جيريكو في عام 1819. تُصور اللوحة حدثًا مأساويًا من تاريخ البحرية الفرنسية، ويعرف باسم غرق فرقاطة ميدوز في عام 1816. رسم ثيودور جيريكو \"طوفان الميدوز\" كاستجابة لحدث مأساوي ومثير للجدل في تاريخ البحرية الفرنسية - غرق فرقاطة ميدوز في عام 1816. هناك عدة أسباب دفعت جيريكو لتصوير هذا الحدث الخاص في عمله الفني: كان جيريكو متأثرًا بشدة بالمعاناة البشرية والمأساة التي شهدتها السفينة أثناء الغرق. تحمل الناجون ظروفًا قاسية، بما في ذلك الجوع والعطش والتعرض وحتى اللجوء إلى الأكل من لحوم البشر. شعر جيريكو بالتعاطف والرحمة نحو الضحايا، وسعى إلى جذب الانتباه إلى معاناتهم."
+          }
+        }
+      }
+    },
+    "The artist history: Leonardo da Vinci was a polymath of the Italian Renaissance, excelling in various fields such as painting, sculpture, anatomy, engineering, mathematics, and architecture. His life story is rich and multifaceted,eonardo was born in Vinci, Italy, as the illegitimate son of Ser Piero da Vinci, a notary, and Caterina, a peasant woman. He spent his early years in Vinci and later moved to Florence.Leonardo da Vinci passed away on May 2, 1519, at the age of 67, at Clos Lucé. The exact cause of his death is uncertain, but it is believed to be related to a stroke." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السبب الدقيق لرسم ليوناردو دا فينشي لوحة \"موناليزا\" ليس معروفًا بشكل قاطع، وكان هذا الموضوع مصدرًا للتكهنات والنقاش بين علماء التاريخ الفني. بدأ ليوناردو دا فينشي العمل على اللوحة حوالي عام 1503م، ويُعتقد أنها طُلبت منه من قبل تاجر فلورنسي ثري يُدعى فرانشيسكو ديل جيوكوندو، الذي يُعتقد أن زوجته ليزا غيرارديني هي موضوع اللوحة."
+          }
+        }
+      }
+    },
+    "the Mona Lisa story : The exact reason why Leonardo da Vinci painted the Mona Lisa is not definitively known, and the subject has been a source of speculation and debate among art historians. Leonardo da Vinci began working on the painting around 1503, and it is believed to have been commissioned by a wealthy Florentine merchant named Francesco del Giocondo, whose wife, Lisa Gherardini, is thought to be the subject of the portrait." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السبب الدقيق لرسم ليوناردو دا فينشي لوحة \"موناليزا\" ليس معروفًا بشكل قاطع، وكان هذا الموضوع مصدرًا للتكهنات والنقاش بين علماء التاريخ الفني. بدأ ليوناردو دا فينشي العمل على اللوحة حوالي عام 1503م، ويُعتقد أنها طُلبت منه من قبل تاجر فلورنسي ثري يُدعى فرانشيسكو ديل جيوكوندو، الذي يُعتقد أن زوجته ليزا غيرارديني هي موضوع اللوحة."
+          }
+        }
+      }
+    },
+    "The painting features a night sky dominated by swirling, turbulent patterns of stars. The sky occupies the upper two-thirds of the canvas, creating a cosmic and expansive feeling.The landscape below includes a cypress tree on the left side, a steepled village with red-roofed buildings, and a mountainous backdrop.Van Gogh employed a rich and vibrant color palette, with bold and intense hues. The sky is dominated by deep blues and purples, while the stars are depicted in bright, swirling yellows.The village and landscape below are rendered in darker tones, creating a contrast with the radiant night sky.The stars in the night sky are a central motif of the painting. They are depicted with swirling, circular motions, creating a dynamic and mesmerizing effect.The stars seem to pulsate with energy, conveying a sense of cosmic movement and vitality.Van Gogh's characteristic impasto technique is evident in the thick and textured application of paint. The swirling patterns in the sky and the expressive brushstrokes contribute to the sense of movement and emotion.The impasto technique adds a tactile quality to the painting, inviting viewers to engage with the surface." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتميز اللوحة بسماء ليلية مهيمنة بأنماط دوامة من النجوم. تشغل السماء ثلثي الجزء العلوي من اللوحة، مما يخلق شعورًا كونيًا وواسعًا. المناظر الطبيعية في أدنى اللوحة تشمل شجرة سرو على الجانب الأيسر، وقرية بها مبانٍ بأسقف حمراء، وخلفية جبلية. استخدم فان جوخ لوحة ألوان غنية ونابضة بالحياة، ذات ألوان جريئة ومكثفة. السماء مهيمنة بدرجات  اللون الأزرق العميق والأرجواني، بينما تُصوّر النجوم بدرجات لون أصفر ساطعة تتداخل بشكل دوّام. القرية والمناظر الطبيعية أدناه مُعبر عنها بألوان داكنة، مما يخلق تباينًا مع السماء الليلية المشعة. النجوم في السماء الليلية هي موضوع مركزي في اللوحة. تم تصويرها بحركات دائرية ودوامات، مما يخلق تأثيرًا ديناميكيًا وساحرًا. تبدو النجوم كأنها تنبض بالطاقة، مما ينقل شعورًا بالحركة والحيوية الكونية. تظهر تقنية الإمباستو المميزة لفان جوخ في طريقة وضع كمية سميكة من الطلاء مكونة بنية وملمس ظاهر له. الأنماط الدوامية في السماء واللمسات الفنية التعبيرية تساهم في الشعور بالحركة والعاطفة. تقنية الإمباستو تضيف جودة لمسية للوحة، مما يدعو المشاهدين إلى التفاعل مع سطح اللوحة."
+          }
+        }
+      }
+    },
+    "The Raft of the Medusa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طوفان الميدوز"
+          }
+        }
+      }
+    },
+    "The Raft of the Medusa story : is a monumental painting created by the French Romantic artist Théodore Géricault in 1819. The painting depicts a tragic event from French naval history, known as the wreck of the frigate Méduse in 1816. Théodore Géricault painted The Raft of the Medusa as a response to a tragic and controversial event in French naval history—the wreck of the frigate Méduse in 1816. There are several reasons why Géricault chose to depict this specific event in his artwork:éricault was deeply moved by the human suffering and tragedy that unfolded during the shipwreck. The survivors endured extreme conditions, including hunger, thirst, exposure, and even resorting to cannibalism. Géricault felt a sense of empathy and compassion for the victims, and he sought to bring attention to their plight." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"طوفان الميدوز\" هي لوحة ضخمة أُنشئت من قبل الفنان الرومانسي الفرنسي ثيودور جيريكو في عام 1819. تُصور اللوحة حدثًا مأساويًا من تاريخ البحرية الفرنسية، ويعرف باسم غرق فرقاطة ميدوز في عام 1816. رسم ثيودور جيريكو \"طوفان الميدوز\" كاستجابة لحدث مأساوي ومثير للجدل في تاريخ البحرية الفرنسية - غرق فرقاطة ميدوز في عام 1816. هناك عدة أسباب دفعت جيريكو لتصوير هذا الحدث الخاص في عمله الفني: كان جيريكو متأثرًا بشدة بالمعاناة البشرية والمأساة التي شهدتها السفينة أثناء الغرق. تحمل الناجون ظروفًا قاسية، بما في ذلك الجوع والعطش والتعرض وحتى اللجوء إلى الأكل من لحوم البشر. شعر جيريكو بالتعاطف والرحمة نحو الضحايا، وسعى إلى جذب الانتباه إلى معاناتهم."
+          }
+        }
+      }
+    },
+    "The Starry Night is one of Vincent van Gogh's most famous and iconic paintings. Painted in June 1889, it is considered a masterpiece of Post-Impressionist art. Vincent van Gogh painted The Starry Night while he was a patient at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France. He created the work from memory and imagination rather than directly observing the night sky.During his time in Saint-Rémy, Van Gogh experienced periods of emotional turbulence and struggled with mental health issues. It is believed that the swirling, dynamic composition of The Starry Night reflects his inner emotional state." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحة \"ليلة النجوم\" هي واحدة من أشهر لوحات فنسنت فان جوخ وأيقوناته الأكثر شهرة. رسمت في يونيو 1889، وتُعتبر تحفة فنية في فن ما بعد الانطباعية. رسم فنسنت فان جوخ \"ليلة النجوم\" أثناء إقامته كمريض في مصحة سان بول دي موزول في سان ريمي دو بروفانس بفرنسا. رسم اللوحة من الذاكرة والخيال بدلاً من مراقبة السماء في الليل مباشرة.\n\nخلال وقته في سان ريمي، عاش فان جوخ فترات من الاضطراب العاطفي وصارع مع مشاكل الصحة العقلية. يُعتقد أن التكوين الدوراني والديناميكي في \"ليلة النجوم\" يعكس حالته العاطفية الداخلية."
+          }
+        }
+      }
+    },
+    "The Wedding at Can story : The story of The Wedding at Cana is a biblical narrative found in the Gospel of John, specifically in John 2:1-11. The account describes a wedding feast in the town of Cana in Galilee, where Jesus performed his first public miracle. Jesus and his disciples, along with his mother Mary, were invited to a wedding feast in the town of Cana. During the celebration, the hosts ran out of wine. In the cultural context of the time, running out of wine during a wedding feast was a significant and embarrassing issue. Mary, the mother of Jesus, was aware of the situation and approached her son. She simply told him, They have no more wine.Initially, Jesus responded somewhat cryptically to his mother, saying, Woman, what does this have to do with me? My hour has not yet come. Some interpretations suggest that Jesus was indicating that his public ministry and the manifestation of his divine power were not to be initiated at that moment." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة هذه اللوحة ذكرت في الإنجيل تحكي عن حفل زفاف في بلدة اسمها قانا، حيث شارك  عيسى (عليه السلام) في هذا الحفل. في وسط الاحتفال، نفد النبيذ، وهذا كان أمرًا محرجًا.\n\nوالدة عيسى، مريم، أخبرت ابنها بالمشكلة، وكان رد عيسى غامضًا في البداية. ومع ذلك، قام بمعجزة فحول الماء إلى نبيذ لذيذ. هذه القصة تظهر قدرة عيسى على فعل معجزات وكرمه تجاه الآخرين.\n\nيُؤكد أن هذه القصة جزء من التقاليد المسيحية وتبرز قيم الرحمة والفهم لاحتياجات الناس. يتم استخدام هذه القصة لتعزيز الإيمان والتفاؤل في وجه التحديات في المعتقدات المسيحيه ."
+          }
+        }
+      }
+    },
+    "The Wedding at Cana" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "زفاف قانا"
+          }
+        }
+      }
+    },
+    "Théodore Géricault" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ثيودور جيريكو "
+          }
+        }
+      }
+    },
+    "Théodore Géricault was a French Romantic painter known for his dramatic and emotionally charged works.Théodore Géricault was born on September 26, 1791, in Rouen, France, into a wealthy and socially prominent family.Géricault's personal life was marked by financial difficulties and health issues. He was known for his intense and passionate personality, which sometimes led to conflicts with others." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " ثيودور جيريكو هو رسام رومانسي فرنسي مشهور بأعماله الدرامية والمشحونة عاطفياً.\nولد ثيودور جيريكو في 26 سبتمبر 1791 في روان، فرنسا، في عائلة ثرية ومرموقة اجتماعياً.\nكانت حياة جيريكو الشخصية مليئة بالصعوبات المالية والمشاكل الصحية. كان معروفًا بشخصيته الشديدة والعاطفية، مما أدى أحيانًا إلى صراعات مع الآخرين."
+          }
+        }
+      }
+    },
+    "Vincent van Gogh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فنسنت فان جوخ"
+          }
+        }
+      }
+    },
+    "Vincent van Gogh was a Dutch Post-Impressionist painter whose work had a profound impact on the art world despite his relatively short and tumultuous life. Vincent Willem van Gogh was born in Zundert, Netherlands, to a middle-class family. He showed an early interest in art but initially pursued a career in various professions, including working as an art dealer, teacher, and preacher. incent van Gogh died on July 29, 1890, at the age of 37, from a gunshot wound, likely self-inflicted. The circumstances surrounding his death remain the subject of debate, with some suggesting it was suicide and others considering the possibility of accidental injury." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فنسنت فان جوخ كان رسامًا هولنديًا يصنف كفنان في ما بعد الانطباعية، وكان لأعماله تأثيرًا عميقًا على عالم الفن على الرغم من حياته القصيرة والمضطربة نسبيًا. وُلد فنسنت ويليم فان جوخ في زوندرت، هولندا، لعائلة من الطبقة الوسطى. أظهر اهتمامًا مبكرًا بالفن ولكنه في البداية اتجه نحو مهن مختلفة، بما في ذلك العمل كتاجر فني ومدرس وقسيس.\n\nتُوفي فنسنت فان جوخ في 29 يوليو 1890، عن عمره يناهز الـ 37 عامًا، بسبب جروح بالرصاص، على الأرجح كانت ذاتيّة الإصابة. تظل الظروف المحيطة بوفاته موضوع يثير الجدل، حيث يقترح البعض أنها انتحار ويعتبر آخرون احتمالية إصابته عرضية."
+          }
+        }
+      }
+    },
+    "Women Of Algiers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نساء الجزائر"
+          }
+        }
+      }
+    },
+    "Women Of Algiers " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نساء الجزائر"
+          }
+        }
+      }
+    },
+    "women of algiers story : The Women of Algiers refers to a famous series of 15 paintings created by the French Romantic artist Eugène Delacroix. These paintings were inspired by Delacroix's visit to North Africa, particularly Algiers (now part of Algeria), in 1832. The most renowned painting from this series is Women of Algiers in Their Apartment.Delacroix's journey to North Africa was a significant source of inspiration for him. His fascination with the exoticism, colors, and culture of Algiers is evident in this series." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"نساء الجزائر\" تشير إلى سلسلة مشهورة من 15 لوحة أنشأها الفنان الرومانسي الفرنسي إيوجين ديلاكروا. كانت هذه اللوحات مستوحاة من زيارة ديلاكروا إلى شمال أفريقيا، وتحديدا إلى الجزائر (التي أصبحت الآن جزءًا من الجزائر) في عام 1832. وتعتبر اللوحة الأكثر شهرة من هذه السلسلة هي \"نساء الجزائر في شقتهن\".\n\nكانت رحلة ديلاكروا إلى شمال أفريقيا مصدر إلهام هام بالنسبة له. إن إعجابه بالغرابة والألوان والثقافة في الجزائر واضح في هذه السلسلة."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

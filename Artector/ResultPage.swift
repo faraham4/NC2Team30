@@ -17,6 +17,8 @@ struct ResultPage: View {
     
     var body: some View {
         VStack {
+            
+            ScrollView {
             if let image = image {
                 Image(uiImage: image)
                     .resizable()
@@ -26,55 +28,39 @@ struct ResultPage: View {
                 Text("No Image Available")
             }
             
+            
+            
+            
             if let painting = painting {
-                Button(" More info "){
+                VStack {
                     
-                    showingCredits.toggle()
-                }
-                .padding(.top, 120.0)
-                //.offset(x:0, y:300)
-                
-                
-                
-                .sheet(isPresented: $showingCredits) {
-                    
-                    
-                    Button (action:{
-                        buttonPressed()
-                    }) {
-                        Image("back") }
-                    .padding(.trailing,290)
-                    //.padding(.bottom,50.0)
-                    .padding(.top,50)
-                    
-                    
-                    
-                    
-                    
-                    Button (action:{
-                        buttonPressed()
-                    }) {
-                        Image("sound") }
-                    .padding(.leading,290)
-                    //.padding(.bottom,50.0)
-                    // .lineSpacing(50)
-                    .padding(.top,-25)
-                    
-                    ScrollView {
-                        Text("Name: \(painting.name)")
-                        Text("Artist: \(painting.artist)")
-                        Text("artistStory: \(painting.artistStory)")
-                        Text("paintingStory: \(painting.paintingStory)")
-                        Text("paintingDescription: \(painting.paintingDescription)")
+                        VStack {
+                            Text("Name:")
+                            Text("\(painting.name)")
+                        }
+                        VStack {
+                            Text("Artist:")
+                            Text("\(painting.artist)")
+                        }
+                        VStack {
+                            Text("artistStory:")
+                            Text("\(painting.artistStory)")
+                        }
+                        VStack {
+                            Text("paintingStory:")
+                            Text("\(painting.paintingStory)")
+                        }
+                        VStack {
+                            Text("paintingDescription:")
+                            Text("\(painting.paintingDescription)")
+                        }
+                        
+                        
                         
                     }
-                    
-                    .presentationDetents([ .large])
                 }
-                
-                
             }
-            
+                
         }
     }
     
