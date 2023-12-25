@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var error: Bool = false
     @State private var predictedImage: UIImage?
     let labels = ["monalisa", "theraftofthemedusa", "thestarrynight", "theweddingatcana", "womenofalgiers"]
-    @State private var classificationLabel = "Default Classification"
+    @State private var classificationLabel = ""
     @State private var selectedPainting: Painting?
     
     
@@ -32,34 +32,53 @@ struct ContentView: View {
     }()
 
     var body: some View {
-        NavigationView {
             VStack {
                 // image is here
                 Image(uiImage: capturedImage)
                     .resizable()
                     .frame(width: 299, height: 299)
+                    .accessibilityLabel("Captured Image")
+                    .accessibility(hint: Text("Image for identification"))
+                
+                Spacer()
 
-                Button("recognize") {
+                Button("Identify") {
                     classifyImage(capturedImage: capturedImage)
                 }
                 .padding()
+                .frame(width: 250)
                 .foregroundColor(Color.white)
-                .background(Color.darkGray)
+                .background(Color.black)
+                .cornerRadius(10)
+                .accessibilityLabel("Identify Image")
+                .accessibility(hint: Text("Tap to start image Identification"))
 
                 NavigationLink(destination: ResultPage(painting: selectedPainting, image: predictedImage)) {
-                    Text("Show Result")
+                    Text("Show Painting Info")
                         .padding()
-                        .foregroundColor(Color.white)
-                        .background(Color.black)
+                        .frame(width: 250)
+                        .foregroundColor(Color.black)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color.black, lineWidth: 2) // Apply border color and width
+                        )
                 }
                 .padding()
+                .accessibilityLabel("Show Painting Info")
+                .accessibility(hint: Text("Navigate to painting info page"))
 
                 Text(classificationLabel)
                     .padding()
                     .font(.body)
+                    .multilineTextAlignment(.center)
+                    .accessibilityLabel("Image Identification Result")
+                    .accessibility(hint: Text("Result of the identification"))
             }
-           // .navigationTitle("Image Classification")
-        }
+            .padding()
+            .navigationBarTitle("Image Identification", displayMode: .inline)
+        
     }
 
     private func classifyImage(capturedImage: UIImage) {
@@ -75,7 +94,7 @@ struct ContentView: View {
             print("✓ Prediction done")
 
             // Update the classificationLabel with the predicted classLabel
-            self.classificationLabel = "Prediction: \(prediction.target)"
+            self.classificationLabel = "✔️✔️✔️"//success message
 
             // Find the corresponding Painting based on the predicted label
             if let matchedPainting = paintings[prediction.target] {
@@ -93,7 +112,7 @@ struct ContentView: View {
             print("Something went wrong!\n\(error.localizedDescription)\n\nMore Info:\n\(error)")
 
             // Update the classificationLabel with an error message
-            self.classificationLabel = "Error making prediction"
+            self.classificationLabel = "Image Identification Unsuccessful"
         }
     }
 

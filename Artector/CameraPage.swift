@@ -19,11 +19,9 @@ struct CameraPage: View {
                     ContentView(capturedImage: image)
                         
                 } else {
-                    EmptyView()
+                    CameraView(capturedImage: $capturedImage)
+                        .accessibilityLabel("Camera View")
                 }
-            }
-            .sheet(isPresented: $isShowingCamera) {
-                CameraView(capturedImage: $capturedImage)
             }
             .onAppear {
                 isShowingCamera = true

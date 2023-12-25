@@ -16,49 +16,63 @@ struct ResultPage: View {
         print("button pressed") }
     
     var body: some View {
-        VStack {
-            
+        VStack(spacing: 20){
             ScrollView {
             if let image = image {
                 Image(uiImage: image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(maxWidth: .infinity)
+                    .cornerRadius(10)
+                    .accessibilityLabel("Displayed Image")
+                    .accessibility(hint: Text("Displayed image for painting result"))
+                
             } else {
                 Text("No Image Available")
+                    .font(.headline)
+                    .foregroundColor(.red)
+                    .accessibilityLabel("No Image Available")
+                    .accessibility(hint: Text("No image is available for the painting result"))
+
             }
             
-            
-            
-            
-            if let painting = painting {
-                VStack {
-                    
-                        VStack {
-                            Text("Name:")
-                            Text("\(painting.name)")
+                VStack(alignment: .leading){
+                    if let painting = painting {
+                       // VStack {
+                            
+                                VStack(alignment: .leading){
+                                    Text("Name:")
+                                        .bold()
+                                    Text("\(painting.name)")
+                                        .accessibilityLabel("Painting Name")
+                                }
+                                VStack(alignment: .leading){
+                                    Text("Artist:")
+                                    Text("\(painting.artist)")
+                                        .accessibilityLabel("Artist Name")
+                                }
+                                VStack(alignment: .leading){
+                                    Text("artistStory:")
+                                    Text("\(painting.artistStory)")
+                                        .accessibilityLabel("Artist Story")
+                                }
+                                VStack(alignment: .leading){
+                                    Text("paintingStory:")
+                                    Text("\(painting.paintingStory)")
+                                        .accessibilityLabel("Painting Story")
+                                }
+                                VStack(alignment: .leading){
+                                    Text("paintingDescription:")
+                                    Text("\(painting.paintingDescription)")
+                                        .accessibilityLabel("Painting Description")
+                                }
+                                
+                                
+                                
+                          //  }
                         }
-                        VStack {
-                            Text("Artist:")
-                            Text("\(painting.artist)")
-                        }
-                        VStack {
-                            Text("artistStory:")
-                            Text("\(painting.artistStory)")
-                        }
-                        VStack {
-                            Text("paintingStory:")
-                            Text("\(painting.paintingStory)")
-                        }
-                        VStack {
-                            Text("paintingDescription:")
-                            Text("\(painting.paintingDescription)")
-                        }
-                        
-                        
-                        
-                    }
                 }
+
             }
                 
         }

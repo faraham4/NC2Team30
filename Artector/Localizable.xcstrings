@@ -25,6 +25,36 @@
         }
       }
     },
+    "Artector App" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artector App"
+          }
+        }
+      }
+    },
+    "Artist Name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الفنان"
+          }
+        }
+      }
+    },
+    "Artist Story" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة الفنان"
+          }
+        }
+      }
+    },
     "Artist:" : {
       "localizations" : {
         "ar" : {
@@ -63,6 +93,56 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قصة الفنان:"
+          }
+        }
+      }
+    },
+    "Camera View" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واجهة الكاميرا"
+          }
+        }
+      }
+    },
+    "Captured Image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة الملتقطة"
+          }
+        }
+      }
+    },
+    "Discover stories behind famous paintings" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتشف القصة خلف اللوحات الفنية المشهورة"
+          }
+        }
+      }
+    },
+    "Displayed Image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة المعروضة"
+          }
+        }
+      }
+    },
+    "Displayed image for painting result" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة الخاصة بنتيجة اللوحة"
           }
         }
       }
@@ -130,13 +210,52 @@
         }
       }
     },
-    "go" : {
-      "extractionState" : "stale",
+    "Identify" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "go"
+            "value" : "تعرف"
+          }
+        }
+      }
+    },
+    "Identify Image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعرف على الصورة"
+          }
+        }
+      }
+    },
+    "Image for identification" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة المراد التعرف عليها "
+          }
+        }
+      }
+    },
+    "Image Identification" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة المراد التعرف عليها "
+          }
+        }
+      }
+    },
+    "Image Identification Result" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نتيجة التعرف"
           }
         }
       }
@@ -174,6 +293,16 @@
         }
       }
     },
+    "Mona Lisa Painting Image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة موناليزا"
+          }
+        }
+      }
+    },
     "Name:" : {
       "localizations" : {
         "ar" : {
@@ -195,12 +324,32 @@
         }
       }
     },
+    "Navigate to painting info page" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتقل الى صفحة معلومات اللوحة"
+          }
+        }
+      }
+    },
     "No Image Available" : {
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "لا يوجد صورة"
+          }
+        }
+      }
+    },
+    "No image is available for the painting result" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد معلومات متاحة"
           }
         }
       }
@@ -212,6 +361,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لا يوجد "
+          }
+        }
+      }
+    },
+    "Painting Description" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف اللوحة"
           }
         }
       }
@@ -256,6 +415,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يهيمن على اللوحة مجموعة الألوان  من الدرجات الأرضية، مع التركيز على اللون البني والرمادي والألوان المُخملية، مما يخلق جوًا مكتئبًا ومائلاً نحو الخراب.\n\nاستخدام الألوان المُخملية يُساهم في واقعية المشهد، مُؤكدًا قسوة محنة الناجين.\n\nأولى جيريكو اهتمامًا فائقًا بالتقاط الحالات النفسية والعاطفية للشخصيات. الوجوه تظهر مجموعة من المشاعر، بما في ذلك الحزن واليأس والاستسلام.\n\nتعبيرات الوجوه للشخصيات تُسهم في الأثر العاطفي الشامل للوحة، مما يستحضر التعاطف من المشاهد."
+          }
+        }
+      }
+    },
+    "Painting Name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم اللوحة"
+          }
+        }
+      }
+    },
+    "Painting Story" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة اللوحة"
           }
         }
       }
@@ -325,6 +504,7 @@
       }
     },
     "recognize" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -334,7 +514,28 @@
         }
       }
     },
+    "Result of the identification" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نتيجة التعرف"
+          }
+        }
+      }
+    },
+    "Show Painting Info" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اظهر معلومات اللوحة"
+          }
+        }
+      }
+    },
     "Show Result" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -351,6 +552,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ليلة النجوم"
+          }
+        }
+      }
+    },
+    "Tap to start image Identification" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لبدء عملية التعرف على الصورة"
           }
         }
       }
