@@ -55,7 +55,11 @@
         }
       }
     },
+    "Artist Story:" : {
+
+    },
     "Artist:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -77,6 +81,7 @@
       }
     },
     "artistStory:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -96,6 +101,9 @@
           }
         }
       }
+    },
+    "by %@" : {
+
     },
     "Camera View" : {
       "localizations" : {
@@ -304,6 +312,7 @@
       }
     },
     "Name:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -419,6 +428,9 @@
         }
       }
     },
+    "Painting Description:" : {
+
+    },
     "Painting Name" : {
       "localizations" : {
         "ar" : {
@@ -439,7 +451,11 @@
         }
       }
     },
+    "Painting Story:" : {
+
+    },
     "paintingDescription:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -461,6 +477,7 @@
       }
     },
     "paintingStory:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {

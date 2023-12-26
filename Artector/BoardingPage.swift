@@ -41,7 +41,7 @@ struct BoardingView: View {
                             .padding()
                             .frame(
                                 width: 250)
-                            .background(Color.darkGray)
+                            .background(Color.black)
                             .cornerRadius(10).position(x: 180, y:190)
                     }
                 )

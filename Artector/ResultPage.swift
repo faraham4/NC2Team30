@@ -39,32 +39,47 @@ struct ResultPage: View {
                 VStack(alignment: .leading){
                     if let painting = painting {
 
+                        VStack(alignment: .leading){
+                            //  Text("Name:")
+                            Text("\(painting.name)")
+                                .accessibilityLabel("Painting Name")
+                                .bold()
+                                .font(.title)
+                        }.padding()
+                        
                                 VStack(alignment: .leading){
-                                    Text("Name:")
-                                        .bold()
-                                    Text("\(painting.name)")
-                                        .accessibilityLabel("Painting Name")
-                                }
-                                VStack(alignment: .leading){
-                                    Text("Artist:")
-                                    Text("\(painting.artist)")
+                                        
+                                    Text("by \(painting.artist)")
                                         .accessibilityLabel("Artist Name")
-                                }
-                                VStack(alignment: .leading){
-                                    Text("artistStory:")
+                                        .font(.title3)
+                                }.padding()
+                        
+                                VStack(alignment: .leading, spacing: 20){
+                                    Text("Artist Story:")
+                                        .bold()
+                                        .font(.title3)
                                     Text("\(painting.artistStory)")
                                         .accessibilityLabel("Artist Story")
-                                }
-                                VStack(alignment: .leading){
-                                    Text("paintingStory:")
+                                        .font(.body)
+                                }.padding()
+                        
+                                VStack(alignment: .leading, spacing: 20){
+                                    Text("Painting Story:")
+                                        .bold()
+                                        .font(.title3)
                                     Text("\(painting.paintingStory)")
                                         .accessibilityLabel("Painting Story")
-                                }
-                                VStack(alignment: .leading){
-                                    Text("paintingDescription:")
+                                        .font(.body)
+                                }.padding()
+                        
+                                VStack(alignment: .leading, spacing: 20){
+                                    Text("Painting Description:")
+                                        .bold()
+                                        .font(.title3)
                                     Text("\(painting.paintingDescription)")
                                         .accessibilityLabel("Painting Description")
-                                }
+                                        .font(.body)
+                                }.padding()
                                 
                                 
                                 
