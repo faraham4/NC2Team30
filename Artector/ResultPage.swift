@@ -35,12 +35,73 @@ struct ResultPage: View {
                         
                     }
                     
-                }  //vstack
+                    VStack(alignment: .leading){
+                        if let painting = painting {
+                            
+                            VStack(alignment: .leading){
+                                //  Text("Name:")
+                                Text("\(painting.name)")
+                                    .accessibilityLabel("Painting Name")
+                                    .bold()
+                                    .font(.title)
+                            }.padding()
+                            
+                            VStack(alignment: .leading){
+                                
+                                Text("by \(painting.artist)")
+                                    .accessibilityLabel("Artist Name")
+                                    .font(.title3)
+                            }.padding()
+                            
+                            VStack(alignment: .leading, spacing: 20){
+                                HStack(alignment: .top) {
+                                    Text("Artist Story:")
+                                        .bold()
+                                        .font(.title3)
+                                    Spacer()
+                                    Button(action: {
+                                        //add sound code
+                                    }, label: {
+                                        Image(systemName: "speaker")
+                                    })
+                                }
+                                Text("\(painting.artistStory)")
+                                    .accessibilityLabel("Artist Story")
+                                    .font(.body)
+                                   
+                                                                                    }.padding()
+                                        
+                                        VStack(alignment: .leading, spacing: 20){
+                                            Text("Painting Story:")
+                                                .bold()
+                                                .font(.title3)
+                                            Text("\(painting.paintingStory)")
+                                                .accessibilityLabel("Painting Story")
+                                                .font(.body)
+                                        }.padding()
+                                        
+                                        VStack(alignment: .leading, spacing: 20){
+                                            Text("Painting Description:")
+                                                .bold()
+                                                .font(.title3)
+                                            Text("\(painting.paintingDescription)")
+                                                .accessibilityLabel("Painting Description")
+                                                .font(.body)
+                                        }.padding()
+                                        
+                                        
+                                        
+                                        
+                                    }//if
+                                
+                            }//vstack
+                            
+                        }//scroll
+                        
+                    }//vstack
+                    
+                }
                 
-            }//scrollview
-            
-        }.padding(.all)//vstack
-        
-    }//end of body
-    
-}//end of struct
+                
+            }
+
