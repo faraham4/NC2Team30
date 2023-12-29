@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var error: Bool = false
     @State private var predictedImage: UIImage?
     let labels = ["monalisa", "theraftofthemedusa", "thestarrynight", "theweddingatcana", "womenofalgiers"]
-    @State private var classificationLabel = "Default Classification"
+    @State private var classificationLabel = "No Image was identified"
     @State private var selectedPainting: Painting?
     
     
@@ -32,44 +32,60 @@ struct ContentView: View {
     }()
 
     var body: some View {
-        NavigationView {
-            VStack {
+
+            VStack (spacing: 20){
                 // image is here
                 Image(uiImage: capturedImage)
                     .resizable()
                     .frame(width: 299, height: 299)
                     .accessibilityLabel("Captured Image")
-                    .accessibility(hint: Text("Image for classification"))
-
-
-                Button("recognize") {
+                    .accessibility(hint: Text("Image for identification"))
+                
+                Spacer()
+                
+                Button("Identify") {
                     classifyImage(capturedImage: capturedImage)
                 }
                 .padding()
+                .frame(width: 250)
                 .foregroundColor(Color.white)
-                .background(Color.darkGray)
-                .accessibilityLabel("Classify Image")
-                .accessibility(hint: Text("Tap to start image recognition"))
+                .background(Color.black)
+                .cornerRadius(10)
+                .accessibilityLabel("Identify Image")
+                .accessibility(hint: Text("Tap to start image Identification"))
 
                 NavigationLink(destination: ResultPage(painting: selectedPainting, image: predictedImage)) {
-                    Text("Show Result")
+                    Text("Show Painting Info")
                         .padding()
-                        .foregroundColor(Color.white)
-                        .background(Color.black)
+                        .frame(width: 250)
+                        .foregroundColor(Color.black)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color.black, lineWidth: 2) // Apply border color and width
+                        )
                 }
                 .padding()
-                .accessibilityLabel("Show Result Page")
-                .accessibility(hint: Text("Navigate to the result page"))
+                .accessibilityLabel("Show Painting Info")
+                .accessibility(hint: Text("Navigate to painting info page"))
 
                 Text(classificationLabel)
                     .padding()
                     .font(.body)
-                    .accessibilityLabel("Classification Result")
-                    .accessibility(hint: Text("Result of the image classification"))
+                    .multilineTextAlignment(.center)
+                    .accessibilityLabel("Image Identification Result")
+                    .accessibility(hint: Text("Result of the identification"))
+                    .onAppear{
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        
+                        }
+                    }
             }
-           // .navigationTitle("Image Classification")
+            .padding()
+            .navigationBarTitle("Image Identification", displayMode: .inline)
         }
-    }
+    
 
     private func classifyImage(capturedImage: UIImage) {
         do {
@@ -84,7 +100,8 @@ struct ContentView: View {
             print("✓ Prediction done")
 
             // Update the classificationLabel with the predicted classLabel
-            self.classificationLabel = "Prediction: \(prediction.target)"
+           // self.classificationLabel = "Prediction: \(prediction.target)"
+            self.classificationLabel = "Image Identified Successfully: \(prediction.target)"//success message
 
             // Find the corresponding Painting based on the predicted label
             if let matchedPainting = paintings[prediction.target] {
@@ -108,77 +125,6 @@ struct ContentView: View {
 
 
 }
-
-//struct ResultView: View {
-//    let painting: Painting?
-//    let image: UIImage?
-//    @State private var showingCredits = false
-//
-//    func buttonPressed() {
-//         print("button pressed") }
-//    
-//    var body: some View {
-//        VStack {
-//            if let image = image {
-//                Image(uiImage: image)
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-//            } else {
-//                Text("No Image Available")
-//            }
-//            
-//            Button(" More info "){
-//               
-//            showingCredits.toggle()
-//            }
-//            .padding(.top, 120.0)
-//            .offset(x:0, y:300)
-//
-//
-//
-//            .sheet(isPresented: $showingCredits) {
-//                
-//               
-//                Button (action:{
-//                    buttonPressed()
-//                }) {
-//                    Image("back") }
-//                .padding(.trailing,290)
-//                //.padding(.bottom,50.0)
-//                .padding(.top,50)
-//                
-//
-//                
-//                
-//                
-//                    Button (action:{
-//                        buttonPressed()
-//                    }) {
-//                        Image("sound") }
-//                    .padding(.leading,290)
-//                    //.padding(.bottom,50.0)
-//                   // .lineSpacing(50)
-//                    .padding(.top,-25)
-//               
-//                ScrollView {
-//                    if let painting = painting {
-//                        Text("Name: \(painting.name)")
-//                        Text("Artist: \(painting.artist)")
-//                        Text("artistStory: \(painting.artistStory)")
-//                        Text("paintingStory: \(painting.paintingStory)")
-//                        Text("paintingDescription: \(painting.paintingDescription)")
-//                    }
-//                }
-//               
-//            .presentationDetents([ .large])
-//            }
-//
-//           
-//        }
-//       
-//    }
-//}
 
 
 extension UIImage {

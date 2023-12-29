@@ -2,7 +2,7 @@ import SwiftUI
 
 struct BoardingView: View {
     var body: some View {
-        NavigationView {
+        NavigationView{
             VStack {
                 Spacer()
                 VStack (alignment: .leading){
@@ -19,9 +19,9 @@ struct BoardingView: View {
                         .padding([.leading, .bottom, .trailing])
                         .frame(width: 350)
                         .accessibilityLabel("Discover stories behind famous paintings")
-
-                }.padding(.vertical)
                     
+                }.padding(.vertical)
+                
                 ZStack{
                     Image("borderGroup").position(x: 195, y:190)
                     
@@ -41,16 +41,17 @@ struct BoardingView: View {
                             .padding()
                             .frame(
                                 width: 250)
-                            .background(Color.darkGray)
+                            .background(Color.black)
                             .cornerRadius(10).position(x: 180, y:190)
                     }
                 )
                 .padding()
                 .accessibilityLabel("Get Started")
+                
             }
-            .navigationBarHidden(true)
         }
     }
+    
     
 }
 

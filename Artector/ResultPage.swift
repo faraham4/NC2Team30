@@ -16,68 +16,43 @@ struct ResultPage: View {
         print("button pressed") }
     
     var body: some View {
-        VStack {
-            if let image = image {
-                Image(uiImage: image)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .accessibilityLabel("Displayed Image")
-                    .accessibility(hint: Text("Displayed image for painting result"))
-            } else {
-                Text("No Image Available")
-                    .accessibilityLabel("No Image Available")
-                    .accessibility(hint: Text("No image is available for the painting result"))
-            }
-            
-            if let painting = painting {
-                Button(" More info "){
-                    
-                    showingCredits.toggle()
+        VStack(spacing: 20){
+            ScrollView{
+                if let image = image {
+                    Image(uiImage: image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth: .infinity)
+                        .cornerRadius(10)
+                        .accessibilityLabel("Displayed Image")
+                        .accessibility(hint: Text("Displayed image for painting result"))
+                } else {
+                    Text("No Image Available")
+                        .font(.headline)
+                        .foregroundColor(.red)
+                        .accessibilityLabel("No Image Available")
+                        .accessibility(hint: Text("No image is available for the painting result"))
                 }
-                .padding(.top, 120.0)
-                .accessibilityLabel("More Information Button")
-                .accessibility(hint: Text("Tap to view more information about the painting"))
                 
-                
-                
-                .sheet(isPresented: $showingCredits) {
-                    
-                    
-                    Button (action:{
-                        buttonPressed()
-                    }) {
-                        Image("back") }
-                    .padding(.trailing,290)
-                    //.padding(.bottom,50.0)
-                    .padding(.top,50)
-                    .accessibilityLabel("Back Button")
-                    .accessibility(hint: Text("Go back to the previous screen"))
-                    
-                    
-                    
-                    
-                    
-                    Button (action:{
-                        buttonPressed()
-                    }) {
-                        Image("sound") }
-                    .padding(.leading,290)
-                    //.padding(.bottom,50.0)
-                    // .lineSpacing(50)
-                    .padding(.top,-25)
-                    .accessibilityLabel("Sound Button")
-                    .accessibility(hint: Text("Access additional sound options"))
-                    
-                    ScrollView {
+                VStack(alignment: .leading){
+                    if let painting = painting {
                         Text("Name: \(painting.name)")
                             .accessibilityLabel("Painting Name")
                         
                         Text("Artist: \(painting.artist)")
                             .accessibilityLabel("Artist Name")
                         
-                        Text("Artist Story: \(painting.artistStory)")
-                            .accessibilityLabel("Artist Story")
+                        HStack(alignment: .top){
+                            Text("Artist Story: \(painting.artistStory)")
+                                .accessibilityLabel("Artist Story")
+                            VStack(alignment: .trailing) {
+                                Button(action: {
+                                    //add sound code
+                                }, label: {
+                                    Image(systemName: "speaker")
+                                })
+                            }.padding()
+                            }
                         
                         Text("Painting Story: \(painting.paintingStory)")
                             .accessibilityLabel("Painting Story")
@@ -86,14 +61,12 @@ struct ResultPage: View {
                             .accessibilityLabel("Painting Description")
                     }
                     
-                    .presentationDetents([ .large])
-                }
+                }  //vstack
                 
-                
-            }
+            }//scrollview
             
-        }
-    }
+        }.padding(.all)//vstack
+        
+    }//end of body
     
-    
-}
+}//end of struct
