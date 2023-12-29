@@ -49,6 +49,7 @@ struct BoardingView: View {
                 .accessibilityLabel("Get Started")
                 
             }
+            
         }
     }
     

@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var error: Bool = false
     @State private var predictedImage: UIImage?
     let labels = ["monalisa", "theraftofthemedusa", "thestarrynight", "theweddingatcana", "womenofalgiers"]
-    @State private var classificationLabel = "No Image was identified"
+    @State private var classificationLabel = ""
     @State private var selectedPainting: Painting?
     
     
@@ -42,7 +42,7 @@ struct ContentView: View {
                     .accessibility(hint: Text("Image for identification"))
                 
                 Spacer()
-                
+
                 Button("Identify") {
                     classifyImage(capturedImage: capturedImage)
                 }
@@ -84,8 +84,8 @@ struct ContentView: View {
             }
             .padding()
             .navigationBarTitle("Image Identification", displayMode: .inline)
-        }
-    
+        
+    }
 
     private func classifyImage(capturedImage: UIImage) {
         do {
@@ -100,8 +100,7 @@ struct ContentView: View {
             print("✓ Prediction done")
 
             // Update the classificationLabel with the predicted classLabel
-           // self.classificationLabel = "Prediction: \(prediction.target)"
-            self.classificationLabel = "Image Identified Successfully: \(prediction.target)"//success message
+            self.classificationLabel = "✔️✔️✔️"//success message
 
             // Find the corresponding Painting based on the predicted label
             if let matchedPainting = paintings[prediction.target] {
@@ -119,7 +118,7 @@ struct ContentView: View {
             print("Something went wrong!\n\(error.localizedDescription)\n\nMore Info:\n\(error)")
 
             // Update the classificationLabel with an error message
-            self.classificationLabel = "Error making prediction"
+            self.classificationLabel = "Image Identification Unsuccessful"
         }
     }
 
