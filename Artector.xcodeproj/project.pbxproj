@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01157CD32B3BF9CF00BCE5C8 /* tahani 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01157CD22B3BF9CF00BCE5C8 /* tahani 3.wav */; };
+		01157CD52B3BF9DA00BCE5C8 /* tahani1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01157CD42B3BF9DA00BCE5C8 /* tahani1.wav */; };
+		01157CD72B3BF9E500BCE5C8 /* tahani2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01157CD62B3BF9E500BCE5C8 /* tahani2.wav */; };
 		0155DC402B381DA700A3392E /* MyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC3F2B381DA600A3392E /* MyImageClassifier.mlmodel */; };
 		0155DC422B381E5600A3392E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC412B381E5600A3392E /* ContentView.swift */; };
 		0155DC442B381EC500A3392E /* painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DC432B381EC500A3392E /* painting.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01157CD22B3BF9CF00BCE5C8 /* tahani 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tahani 3.wav"; sourceTree = "<group>"; };
+		01157CD42B3BF9DA00BCE5C8 /* tahani1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tahani1.wav; sourceTree = "<group>"; };
+		01157CD62B3BF9E500BCE5C8 /* tahani2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tahani2.wav; sourceTree = "<group>"; };
 		0155DC3F2B381DA600A3392E /* MyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyImageClassifier.mlmodel; sourceTree = "<group>"; };
 		0155DC412B381E5600A3392E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		0155DC432B381EC500A3392E /* painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = painting.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				0155DC412B381E5600A3392E /* ContentView.swift */,
 				0155DC452B385CBB00A3392E /* ResultPage.swift */,
 				017F197A2B39675D0041C8B0 /* Localizable.xcstrings */,
+				01157CD22B3BF9CF00BCE5C8 /* tahani 3.wav */,
+				01157CD42B3BF9DA00BCE5C8 /* tahani1.wav */,
+				01157CD62B3BF9E500BCE5C8 /* tahani2.wav */,
 			);
 			path = Artector;
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01157CD72B3BF9E500BCE5C8 /* tahani2.wav in Resources */,
+				01157CD32B3BF9CF00BCE5C8 /* tahani 3.wav in Resources */,
 				FD9AEDA82B317ED80095CF12 /* Preview Assets.xcassets in Resources */,
 				FD9AEDA52B317ED80095CF12 /* Assets.xcassets in Resources */,
+				01157CD52B3BF9DA00BCE5C8 /* tahani1.wav in Resources */,
 				017F197B2B39675D0041C8B0 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
