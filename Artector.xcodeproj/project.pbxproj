@@ -20,6 +20,7 @@
 		FD9AEDA82B317ED80095CF12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9AEDA72B317ED80095CF12 /* Preview Assets.xcassets */; };
 		FD9AEDB22B318FCC0095CF12 /* BoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AEDB12B318FCC0095CF12 /* BoardingPage.swift */; };
 		FD9AEDD02B32CAE80095CF12 /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AEDCF2B32CAE80095CF12 /* CameraPage.swift */; };
+		FDA7E0FA2B3F0D9900FCBEC8 /* AudioSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7E0F92B3F0D9900FCBEC8 /* AudioSound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FD9AEDB02B318E590095CF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FD9AEDB12B318FCC0095CF12 /* BoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPage.swift; sourceTree = "<group>"; };
 		FD9AEDCF2B32CAE80095CF12 /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
+		FDA7E0F92B3F0D9900FCBEC8 /* AudioSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 		FD9AED942B317ED70095CF12 = {
 			isa = PBXGroup;
 			children = (
-				FD0293592B39739300AAC05D /* SwiftUIView.swift */,
 				FD9AED9F2B317ED70095CF12 /* Artector */,
 				FD9AED9E2B317ED70095CF12 /* Products */,
 			);
@@ -85,6 +86,7 @@
 				01157CD22B3BF9CF00BCE5C8 /* tahani 3.wav */,
 				01157CD42B3BF9DA00BCE5C8 /* tahani1.wav */,
 				01157CD62B3BF9E500BCE5C8 /* tahani2.wav */,
+				FDA7E0F92B3F0D9900FCBEC8 /* AudioSound.swift */,
 			);
 			path = Artector;
 			sourceTree = "<group>";
@@ -174,11 +176,11 @@
 			files = (
 				FD9AEDB22B318FCC0095CF12 /* BoardingPage.swift in Sources */,
 				0155DC462B385CBB00A3392E /* ResultPage.swift in Sources */,
-				FD02935A2B39739300AAC05D /* SwiftUIView.swift in Sources */,
 				0155DC422B381E5600A3392E /* ContentView.swift in Sources */,
 				FD9AEDD02B32CAE80095CF12 /* CameraPage.swift in Sources */,
 				FD9AEDA12B317ED70095CF12 /* ArtectorApp.swift in Sources */,
 				0155DC402B381DA700A3392E /* MyImageClassifier.mlmodel in Sources */,
+				FDA7E0FA2B3F0D9900FCBEC8 /* AudioSound.swift in Sources */,
 				0155DC442B381EC500A3392E /* painting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

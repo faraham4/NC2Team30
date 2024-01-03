@@ -13,7 +13,14 @@
       }
     },
     "%@" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "Artector" : {
       "localizations" : {
@@ -50,13 +57,20 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "قصة الفنان"
+            "value" : "تاريخ الرسام:"
           }
         }
       }
     },
     "Artist Story:" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الرسام:"
+          }
+        }
+      }
     },
     "Artist:" : {
       "extractionState" : "stale",
@@ -86,7 +100,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "قصة الفنان:"
+            "value" : "تاريخ الرسام:"
           }
         }
       }
@@ -97,13 +111,21 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "قصة الفنان:"
+            "value" : "تاريخ الرسام:"
           }
         }
       }
     },
     "by %@" : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "Camera View" : {
       "localizations" : {
@@ -192,7 +214,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إكتشف القصة خلف أشهر اللوحات بنقره زر!"
+            "value" : "إكتشف القصة خلف أشهر اللوحات بنقرة زر!"
           }
         }
       }
@@ -379,7 +401,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "وصف اللوحة"
+            "value" : "وصف اللوحة:"
           }
         }
       }
@@ -429,7 +451,14 @@
       }
     },
     "Painting Description:" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف اللوحة:"
+          }
+        }
+      }
     },
     "Painting Name" : {
       "localizations" : {
@@ -446,13 +475,20 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "قصة اللوحة"
+            "value" : "قصة اللوحة:"
           }
         }
       }
     },
     "Painting Story:" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قصة اللوحة:"
+          }
+        }
+      }
     },
     "paintingDescription:" : {
       "extractionState" : "stale",
